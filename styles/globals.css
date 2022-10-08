@@ -1,0 +1,8 @@
+/* 
+div#__next {
+  background: #000;
+} */
+
+body::-webkit-scrollbar {
+  width: 0;
+}
