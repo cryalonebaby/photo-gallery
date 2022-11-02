@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import {Box, ChakraProvider, Flex} from '@chakra-ui/react'
+import {Box, ChakraProvider, ColorModeScript, Flex} from '@chakra-ui/react'
 import {newTheme} from '../styles/theme'
 import "@fontsource/inter/100.css"
 import Layout from '../components/Layout'
@@ -19,7 +19,8 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ChakraProvider theme={newTheme}>
-        <Flex height={'100vh'} position={'absolute'} top={0} left={0}>
+        <ColorModeScript initialColorMode='dark'/>
+        <Flex height={'100%'} position={'absolute'} top={0} left={0}>
           <Sidebar 
             isOpen={isOpen}
             onToggle={onToggle}

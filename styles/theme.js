@@ -1,14 +1,9 @@
 import { extendTheme } from "@chakra-ui/react";
 
-const config = {
-  initialColorMode: 'dark',
-  useSystemColorMode: true,
-}
-
 export const newTheme = extendTheme({
   colors: {
     sky: {
-      100: '#DAEAF1',
+      100: '#85260D',
       200: '#C6DCE4'
     },
     sand: {
@@ -26,7 +21,5 @@ export const newTheme = extendTheme({
     bigBackground: '0.46em',
     smallBackground: '-0.045em',
     text: '0.12em'
-  },
-  initialColorMode: 'dark',
-  useSystemColorMode: true
+  }
 })
