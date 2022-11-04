@@ -19,7 +19,7 @@ const images = [
 const EmblemsGifts = () => {
   return (
     <Flex overflow={'hidden'} justifyContent={'center'} minWidth={360}>
-      <BgText collectionName={'Emblems & Gifts'}/>
+      <BgText collectionName={'Personalized gifts'}/>
       <Gallery collection={images}/>
       <Scroll/>
     </Flex>

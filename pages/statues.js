@@ -23,7 +23,7 @@ const images = [
 const Statues = () => {
   return (
     <Flex overflow={'hidden'} justifyContent={'center'} minWidth={360}>
-      <BgText collectionName={'Statues'}/>
+      <BgText collectionName={'mini sculptures'}/>
       <Gallery collection={images}/>
       <Scroll/>
     </Flex>

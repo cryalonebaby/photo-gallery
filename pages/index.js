@@ -4,8 +4,7 @@ import Gallery from '../components/Gallery'
 import Scroll from '../components/Scroll'
 
 
-const images = [
-  // mini sculps
+const chess = [
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/chess%2F10.jpg?alt=media&token=a9648898-f394-46e7-ae6a-0d37b2764e34',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/chess%2F12.jpg?alt=media&token=2987d084-28b1-42f8-afb2-4a26d2d0fee1',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/chess%2F13.jpg?alt=media&token=36873bb5-aa96-4bf2-a50e-dc9fa7371d45',
@@ -26,7 +25,7 @@ export default function Home() {
   return (
     <Flex overflow={'hidden'} justifyContent={'center'} minWidth={360} px={6}>
       <BgText collectionName={'Chess Collection'}/>
-      <Gallery collection={images}/>
+      <Gallery collection={chess}/>
       <Scroll/>
     </Flex>
   )

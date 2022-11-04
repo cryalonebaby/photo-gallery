@@ -7,9 +7,10 @@ const menu = [
   {route: '/crockery', title: 'Crockery Collection'},
   {route: '/statues', title: 'Mini Sculptures'},
   {route: '/ornaments-reliefs', title: 'Ornaments&Bas-reliefs'},
-  {route: '/about', title: 'About Creator'},
   {route: '/emblems-gifts', title: 'Emblems&Gifts'},
-  {route: '/decorations', title: 'Table Decorations'}
+  {route: '/decorations', title: 'Table Decorations'},
+  {route: '/wall-painting', title: 'Wall Painting'},
+  {route: '/about', title: 'About Creator'},
 ]
 
 const Sidebar = ({isOpen, onToggle}) => {

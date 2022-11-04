@@ -2,9 +2,13 @@ import { Box, Flex} from '@chakra-ui/react'
 import shuffle from '../utils/shuffle'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
-const Gallery = ({collection}) => {
-  const shuffledArr = shuffle(collection)
+const Gallery = ({collection, noRandom}) => {
   const marginBottom = 16
+  let shuffledArr = []
+  shuffledArr = shuffle(collection)
+  if(noRandom) {
+    shuffledArr = [...collection]
+  }
   return (
     <Flex width={['100%', '100%', '1046px']} py={16} flexDirection={'column'} gap={20} zIndex={999}>
       {shuffledArr.map((img, i) => {
