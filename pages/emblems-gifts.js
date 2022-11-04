@@ -13,6 +13,7 @@ const images = [
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/statues%2Fphoto_2022-10-08_07-17-39.jpg?alt=media&token=c02bf334-0a9f-4429-ae75-aafaf456b495',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/statues%2Fphoto_2022-10-08_07-17-45.jpg?alt=media&token=21f8d01a-8872-48eb-b716-b319b1b31163',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/statues%2Fphoto_2022-10-08_07-17-52.jpg?alt=media&token=d61798fe-b657-4d18-b930-d5b97b316dac',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/mini-sculptures%2FPA303264_-_kopiya.jpg?alt=media&token=16be61de-63b4-49f9-b14c-7334bfa1e8ec',
 ]
 
 const EmblemsGifts = () => {

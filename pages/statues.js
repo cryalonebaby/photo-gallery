@@ -4,7 +4,6 @@ import Gallery from '../components/Gallery'
 import Scroll from '../components/Scroll'
 
 const images = [
-  // personalized gifts
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/statues%2F1.JPG?alt=media&token=27b6f2ea-b57a-496a-a3f5-408b55cb3793',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/statues%2F2.JPG?alt=media&token=d4d9c543-0e41-45f1-8862-bab63802b42f',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/statues%2F3.JPG?alt=media&token=29fb1832-f1b1-4ed1-9695-0f7dd5b60b99',
@@ -15,6 +14,10 @@ const images = [
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/statues%2F8.jpg?alt=media&token=4d54f58f-ee7e-4028-b935-daafa5c0c382',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/chess%2F1.jpg?alt=media&token=33f52fc4-c534-4d50-804a-9c89f4d3a854',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/chess%2F2.jpg?alt=media&token=17eaa909-c9db-435f-bc89-6584fcaf54b8',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/mini-sculptures%2F1.png?alt=media&token=d2f8e06e-af51-4fc8-b411-44bcffddcd47',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/mini-sculptures%2F2.png?alt=media&token=ac988a05-6474-4dfb-8c7e-73087d8536fd',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/mini-sculptures%2F3.png?alt=media&token=ce1d5523-09cb-4539-b0e7-3a7c591b4a2f',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/mini-sculptures%2F4.png?alt=media&token=510f45d9-3a8e-4a2e-9f87-5dff1c224494',
 ]
 
 const Statues = () => {

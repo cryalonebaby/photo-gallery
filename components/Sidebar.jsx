@@ -6,7 +6,7 @@ const menu = [
   {route: '/', title: 'Chess Collection'},
   {route: '/crockery', title: 'Crockery Collection'},
   {route: '/statues', title: 'Mini Sculptures'},
-  {route: '/wall-painting', title: 'Wall Painting'},
+  {route: '/ornaments-reliefs', title: 'Ornaments&Bas-reliefs'},
   {route: '/about', title: 'About Creator'},
   {route: '/emblems-gifts', title: 'Emblems&Gifts'},
   {route: '/decorations', title: 'Table Decorations'}
@@ -32,10 +32,14 @@ const Sidebar = ({isOpen, onToggle}) => {
     <Flex>
     <Slide direction='left' in={isOpen} style={{zIndex: 9998, height: '100%', display: 'flex', width: '100vw', minWidth: '360px'}}>
       <Flex w={360} bgColor={'gray'} height={'100%'} flexDirection={'column'} zIndex={9999999}>
-        <Flex w={'100%'} p={8}>
+        <Flex w={'100%'} p={8} borderBottom={'2px solid #85260D'}>
           <Heading cursor={'pointer'} onClick={onToggle}><CloseIcon w={4} h={4}/></Heading>
         </Flex>
-        <Flex height={'100%'} w={'100%'} flexDirection={'column'}>
+        <Flex sx={{
+          '&::-webkit-scrollbar': {
+            display: 'none'
+          }
+        }} overflowY={'scroll'} height={'100%'} w={'100%'} flexDirection={'column'}>
           {menu.map((el, indx) => (
             <Flex 
               key={indx}
@@ -43,7 +47,7 @@ const Sidebar = ({isOpen, onToggle}) => {
               onClick={() => navigateTo(el.route)} 
               bgColor={isCurrentRoute(el.route)} 
               width={'100%'} 
-              height={'100px'} 
+              minHeight={'100px'} 
               justifyContent={'center'} 
               alignItems={'center'}
             >
@@ -51,9 +55,9 @@ const Sidebar = ({isOpen, onToggle}) => {
             </Flex>
           ))}
         </Flex>
-        <Flex flexDirection={'column'} paddingY={'20px'} alignItems={'center'}>
-          <Text fontSize={'20px'}>yurchenko@gmail.com</Text>
-          <Text fontSize={'20px'}>+123 55 19 12 520</Text>
+        <Flex borderTop={'2px solid #85260D'} flexDirection={'column'} paddingY={'20px'} alignItems={'center'}>
+          <Text fontSize={'20px'}>yurchenko.yr@gmail.com</Text>
+          <Text fontSize={'20px'}>+380 638 516 431</Text>
         </Flex>
       </Flex>
       <Flex 

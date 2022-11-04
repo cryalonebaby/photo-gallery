@@ -4,15 +4,6 @@ import Gallery from '../components/Gallery'
 import Scroll from '../components/Scroll'
 
 const images = [
-  // emblems
-  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2F74.JPG?alt=media&token=beb77076-563d-479e-8f26-b79947d15a0b',
-  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2F75.JPG?alt=media&token=a54079cf-efe2-4897-b8e6-df3be81f0e16',
-  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2F76.JPG?alt=media&token=9b6afc46-2b1b-4264-8133-1b545253ec41',
-  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2F77.JPG?alt=media&token=5dcd7a81-f2b8-46f7-a87c-2ec134ca0f7f',
-  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2F78.JPG?alt=media&token=4d361bf3-a958-43b4-b401-2afc73008412',
-  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2F79.JPG?alt=media&token=77016d17-b0cd-42c8-958c-3e61b7ae8ba8',
-  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2F80.JPG?alt=media&token=c5dced90-b936-4797-8d68-670fe42abc5a',
-  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2F81.JPG?alt=media&token=6bed5399-d4d0-4b08-b1a7-b0b718f4109c',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2Fphoto_2022-08-29_22-05-11.jpg?alt=media&token=867b379c-4c22-4795-95fc-dc865fea1004',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2Fphoto_2022-08-29_22-05-25.jpg?alt=media&token=1fa4aa67-dea9-4b02-9569-b3b70fd17a81',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2Fphoto_2022-08-29_22-05-58.jpg?alt=media&token=e0a893c7-ebb2-415c-ac67-1932b24a38e1',
@@ -30,12 +21,24 @@ const images = [
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2Fphoto_2022-10-12_13-24-28.jpg?alt=media&token=24ded550-9649-43ce-a952-6a289b963465',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2Fphoto_2022-10-12_13-24-45.jpg?alt=media&token=ee1ff76a-7b32-45ba-8aa9-aa6dd3be7113',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2Fphoto_2022-10-12_13-24-46.jpg?alt=media&token=db15afbc-4017-46fc-bd97-3a32f9dca442',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/ornaments%2F1.jpg?alt=media&token=40f838e8-0bba-407e-97f6-a2d020f0a2a0',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/ornaments%2F2.jpg?alt=media&token=a7f26934-08ed-43cf-a637-8168307580ad',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/ornaments%2F3.jpg?alt=media&token=0edfe44f-5977-498c-adea-9c82e1e61a75',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/ornaments%2F4.jpg?alt=media&token=d59cd145-f30c-4256-85f7-176ee0af5e9b',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/ornaments%2F2%2F1.jpg?alt=media&token=89ee3b94-82d7-4ac5-a859-dbae401326e7',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/ornaments%2F2%2F2.jpg?alt=media&token=64cd10c9-9d24-458b-bf0f-c40e17a87ff1',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/ornaments%2F2%2F3.jpg?alt=media&token=fc8c4ae4-b2cd-43b2-83c1-690bbc02e4b4',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/ornaments%2F2%2F4.jpg?alt=media&token=04305c93-4cbb-4c90-846e-bdcab78ade46',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/ornaments%2F2%2F5.jpg?alt=media&token=6ef25bc8-bc44-47b1-abe5-b57ccc5e4adc',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/ornaments%2F2%2F6.jpg?alt=media&token=ada308f9-31b0-429a-9e74-4d22733e256b',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/ornaments%2F2%2F7.jpg?alt=media&token=3ce2ac2f-f95d-40b9-9188-6d8749a5246c',
+  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/ornaments%2F2%2F8.jpg?alt=media&token=07c4abd0-0722-4547-acec-93b67d8e8500',
 ]
 
 const ThirdCollection = () => {
   return (
     <Flex overflow={'hidden'} justifyContent={'center'} minWidth={360}>
-      <BgText collectionName={'Wall Painting'}/>
+      <BgText collectionName={'Ornaments & Bas-reliefs'}/>
       <Gallery collection={images}/>
       <Scroll/>
     </Flex>
