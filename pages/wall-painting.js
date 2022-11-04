@@ -4,6 +4,7 @@ import Gallery from '../components/Gallery'
 import Scroll from '../components/Scroll'
 
 const images = [
+  // emblems
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2F74.JPG?alt=media&token=beb77076-563d-479e-8f26-b79947d15a0b',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2F75.JPG?alt=media&token=a54079cf-efe2-4897-b8e6-df3be81f0e16',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2F76.JPG?alt=media&token=9b6afc46-2b1b-4264-8133-1b545253ec41',
@@ -12,7 +13,6 @@ const images = [
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2F79.JPG?alt=media&token=77016d17-b0cd-42c8-958c-3e61b7ae8ba8',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2F80.JPG?alt=media&token=c5dced90-b936-4797-8d68-670fe42abc5a',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2F81.JPG?alt=media&token=6bed5399-d4d0-4b08-b1a7-b0b718f4109c',
-  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2Fedit-35.jpg?alt=media&token=7de750e9-3f7f-49d8-baff-efbd558a3c52',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2Fphoto_2022-08-29_22-05-11.jpg?alt=media&token=867b379c-4c22-4795-95fc-dc865fea1004',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2Fphoto_2022-08-29_22-05-25.jpg?alt=media&token=1fa4aa67-dea9-4b02-9569-b3b70fd17a81',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/wall%2Fphoto_2022-08-29_22-05-58.jpg?alt=media&token=e0a893c7-ebb2-415c-ac67-1932b24a38e1',

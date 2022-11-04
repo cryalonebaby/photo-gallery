@@ -5,9 +5,11 @@ import {useRouter} from 'next/router'
 const menu = [
   {route: '/', title: 'Chess Collection'},
   {route: '/crockery', title: 'Crockery Collection'},
-  {route: '/statues', title: 'Statues'},
+  {route: '/statues', title: 'Mini Sculptures'},
   {route: '/wall-painting', title: 'Wall Painting'},
   {route: '/about', title: 'About Creator'},
+  {route: '/emblems-gifts', title: 'Emblems&Gifts'},
+  {route: '/decorations', title: 'Table Decorations'}
 ]
 
 const Sidebar = ({isOpen, onToggle}) => {

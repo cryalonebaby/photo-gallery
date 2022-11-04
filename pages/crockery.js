@@ -4,11 +4,7 @@ import Gallery from '../components/Gallery'
 import Scroll from '../components/Scroll'
 
 const images = [
-  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/crockery%2F15.JPG?alt=media&token=c16689f0-8912-44a2-9000-b572815732ae',
-  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/crockery%2F16.JPG?alt=media&token=7a556690-d19a-4598-9922-3f2e07570774',
-  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/crockery%2F17.JPG?alt=media&token=c9f6da8f-d306-49d3-8c08-bce8b1df5b3a',
-  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/crockery%2F18.jpg?alt=media&token=5bf361d4-85a3-4fad-b497-a8e4d79fc6f1',
-  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/crockery%2F19.jpg?alt=media&token=f3898e27-558c-496a-9ee0-a8cc576ebb35',
+  // cutlery
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/crockery%2F33.JPG?alt=media&token=5663e7a0-28c3-451b-a43a-f1351ab4f9d0',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/crockery%2F34.JPG?alt=media&token=6296e065-eb97-4094-b1aa-2995e03cd139',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/crockery%2F35.JPG?alt=media&token=4c9a6f8d-98ef-4f13-bc4a-ed064d1dbf53',
@@ -41,7 +37,6 @@ const images = [
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/crockery%2F70.JPG?alt=media&token=07bb7664-6d2b-4dce-ac3a-33cde5f64136',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/crockery%2F71.JPG?alt=media&token=53fc0048-ba65-40d6-95c9-7deefd4c1204',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/crockery%2F72.JPG?alt=media&token=2db0067b-1447-4d06-a5e7-6b8b94be74de',
-  'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/crockery%2F73.JPG?alt=media&token=89312b62-9868-40c9-9454-fead36fe468b',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/crockery%2F82.JPG?alt=media&token=26781d6b-68f7-41dc-a649-f2e80f6fd7d2',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/crockery%2F84.JPG?alt=media&token=5b8d3588-b1c8-4568-8977-70291a9c6fc4',
   'https://firebasestorage.googleapis.com/v0/b/photo-gallery-57149.appspot.com/o/crockery%2F85.JPG?alt=media&token=ddc8bcc8-faa1-4ec9-9621-a987c28f32e2',
