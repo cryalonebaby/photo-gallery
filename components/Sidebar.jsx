@@ -4,7 +4,7 @@ import {useRouter} from 'next/router'
 
 const menu = [
   {route: '/', title: 'Chess Collection'},
-  {route: '/crockery', title: 'Crockery Collection'},
+  {route: '/crockery', title: 'Ceramics Collection'},
   {route: '/statues', title: 'Mini Sculptures'},
   {route: '/ornaments-reliefs', title: 'Ornaments&Bas-reliefs'},
   {route: '/emblems-gifts', title: 'Emblems&Gifts'},
