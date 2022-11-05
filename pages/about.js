@@ -127,7 +127,7 @@ const About = () => {
             {amazonka.map(fig => (
               <Flex
                 sx={{'&:hover': {transform: 'scale(1.5)'}}}
-                flex={1}
+                w={500}
                 transition={'ease 0.2s'} 
               >
                 <LazyLoadImage
