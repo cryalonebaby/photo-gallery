@@ -46,7 +46,8 @@ const About = () => {
   const chessTxt = `The pieces shown below are designed and manufactured in the 
     "Art Studio" for collectible chess.`
 
-  const amazonkaTxt = `The sculpture "Amazon" is cast in bronze.`
+  const amazonkaTxt = `The sculpture "Amazon" 
+    is cast in bronze.`
   
   const gypsyTxt = `The sculptures "Gypsy" and "Cossack-frontier" won in the nomination 
   "Best sculptural product from silver" at two international exhibitions "Kyiv Jeweler Expo".`
@@ -127,7 +128,7 @@ const About = () => {
             {amazonka.map(fig => (
               <Flex
                 sx={{'&:hover': {transform: 'scale(1.5)'}}}
-                w={500}
+                maxW={500}
                 transition={'ease 0.2s'} 
               >
                 <LazyLoadImage
